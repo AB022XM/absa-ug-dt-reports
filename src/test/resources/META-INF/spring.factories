@@ -1,0 +1,7 @@
+org.springframework.test.context.ContextCustomizerFactory = com.corp.dsarena.\
+    billpayments.config.TestContainersSpringContextCustomizerFactory,com.corp.\
+    dsarena.billpayments.config.\
+    SqlTestContainersSpringContextCustomizerFactory,com.corp.dsarena.\
+    billpayments.config.KafkaTestContainersSpringContextCustomizerFactory,com.\
+    corp.dsarena.billpayments.config.\
+    RedisTestContainersSpringContextCustomizerFactory
